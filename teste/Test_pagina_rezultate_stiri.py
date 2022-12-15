@@ -20,9 +20,6 @@ class TestPaginaStiri(TestPaginaCautareImagini):
 
 #   testare elemente pagina rezultate stiri
     def test_optiuni_rezultate(self):
-        #        self.driver.find_element(*TestPaginaPrincipala.Accord_gdpr1_pagina_principala).click()
-        #        self.driver.find_element(*TestPaginaPrincipala.MainMenu_imagini_pagina_principala).click()
-        #        self.driver.find_element(*TestPaginaPrincipala.Accord_gdpr2_cautare_imagini).click()
         self.driver.get('https://www.google.ro/imghp?hl=en&tab=ri&ogbl')
         self.driver.find_element(*TestPaginaPrincipala.Accord_gdpr2_cautare_imagini).click()
         self.driver.find_element(*TestPaginaCautareImagini.Bara_cautare_google_imagini1).send_keys('pisica')
