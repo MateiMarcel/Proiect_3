@@ -1,5 +1,3 @@
-import time
-
 from selenium.webdriver.common.by import By
 
 from teste.Test_pagina_cautare_imagini import TestPaginaCautareImagini
